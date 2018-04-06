@@ -5,7 +5,12 @@ defmodule Aruki.EbWrapper.Mixfile do
     [app: :eb_wrapper,
       version: "0.1.0",
       elixir: "~> 1.6",
-      deps: deps(Mix.env())]
+      deps: deps(Mix.env()),
+      description: "Erlang Web Application Server",
+      organization: "aruki_delivery",
+      package: package(),
+      source_url: "https://github.com/aruki-delivery/eb_wrapper",
+      homepage_url: "https://hex.pm/packages/eb_wrapper"]
   end
 
   def application do
