@@ -35,4 +35,10 @@ defmodule Aruki.EbWrapper.Mixfile do
       {:uuid, "~> 1.7", hex: :uuid_erl},
     ]
   end
+
+  def package do
+    [ maintainers: ["cblage"],
+      licenses: ["Apache License 2.0"],
+      links: %{"GitHub" => "https://github.com/aruki-delivery/eb_wrapper" } ]
+  end
 end
