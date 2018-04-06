@@ -1,0 +1,17 @@
+%%
+%% Copyright 2015-17 U2D - Urban Dynamic Delivery Company, LDA - http://ud.delivery/
+%%
+{application, eb, [
+	{description, "ExpressBoy Asapp Delivery"},
+	{vsn, "1.0.0"},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		gibreel,
+		kill_bill,
+		mnesia
+	]},
+	{mod, { eb_app, []}},
+	{env, []}
+]}.

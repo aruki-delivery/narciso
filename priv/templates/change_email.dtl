@@ -1,0 +1,17 @@
+<table>
+        <tr>
+                <td>Altera&ccedil;&atilde;o de email.</td>
+        </tr>
+         <tr>
+                <td>Imagens e coisas aqui: {{ static_content }}</td>
+        </tr>
+        <tr>
+                <td>
+                        <table style="border: solid; border-width: 1px; border-color: black; border-collapse: collapse;">
+                                <tr>
+                                        <td style="border: solid; border-width: 1px; border-color: black; padding-left: 5px; padding-right: 5px;"><a href="{{ action_url }}">REACTIVAR A CONTA</a></td>
+                                </tr>
+                        </table>
+                </td>
+        </tr>
+</table>
