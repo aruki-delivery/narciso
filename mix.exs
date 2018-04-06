@@ -33,6 +33,7 @@ defmodule Aruki.EbWrapper.Mixfile do
       {:erlsom, "~> 1.4"},
       {:iso8601, "~> 1.2"},
       {:uuid, "~> 1.7", hex: :uuid_erl},
+      {:ex_doc, ">= 0.0.0", only: :dev},
     ]
   end
 
